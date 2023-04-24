@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login popup</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Welcome! </h1>
+        <h3>To our new website</h3>
+        <p>Click here to login</p>
+        
+        <button class="btn-login" >login</button>
+
+    </div>
+
+    <div class="loginform">
+
+        <span>&times;</span>
+        <form action="">
+
+            <div class="userName">
+                <label for="userName "> User Name :</label>
+                <input type="text"  id="name" required minlength="3">
+                
+            </div>
+
+            <div class="password">
+                <label for="password " >password :</label>
+                <input type="password" required minlength="4" maxlength="8" id="pass">
+
+            </div>
+
+            <button>LOGIN</button>
+
+            <p id="para" class="paragraph"></p>
+
+        </form>
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
